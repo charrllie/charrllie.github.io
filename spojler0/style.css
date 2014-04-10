@@ -1,0 +1,34 @@
+body{
+	font-family: "Helvetica";
+	font-size: 64pt;
+	text-align: center;
+	background: #000;
+	color: #fff;
+	z-index: 1;
+	margin:0;
+}
+
+#adnotation{
+	position: fixed;
+	z-index: 10;
+	font-size: 7pt;
+	margin-top: -20px;
+    margin-left: 50px;
+}
+
+.content {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	right: 0px;
+	-webkit-text-stroke: 2px black;
+	text-shadow:
+		3px 3px 0 #000,
+		-1px -1px 0 #000,  
+		1px -1px 0 #000,
+		-1px 1px 0 #000,
+		1px 1px 0 #000;
+	margin-top: 25px;
+	margin-left: auto;
+	margin-right: auto;
+}
