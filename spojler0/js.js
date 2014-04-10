@@ -1,3 +1,4 @@
+//Countdown function by charrllie all internets and money and bitches reserved
 $( document ).ready(function(){
     setInterval( function() {
         var d1=new Date();
